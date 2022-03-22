@@ -6,7 +6,11 @@ const sum = function(a, b) {
 const diff = function (a,b){
     return a-b
 }
-module.exports = {sum,diff}
+function multiply(a,b){
+    return a*b
+}
+
+module.exports = {sum,diff,multiply}
 
 
 
